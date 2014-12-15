@@ -1,0 +1,1057 @@
+@font-face {
+    font-family: 'NimbusSanTCon';
+    src: url('fonts/nimbus-webfont.eot');
+    src: url('fonts/nimbus-webfont.eot?iefix') format('eot'),
+         url('fonts/nimbus-webfont.woff') format('woff'),
+         url('fonts/nimbus-webfont.ttf') format('truetype'),
+         url('fonts/nimbus-webfont.svg#webfontaWRji5Yx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background:#101010 url(../images/fondo.jpg) no-repeat top center;
+	font-family:'Lucida Grande',Tahoma,sans-serif;
+	color:#666;
+	line-height:16px;
+	font-size:12px;
+}
+
+a {
+    color:#D33432;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a img { border:none }
+
+h1 { 
+	margin:0; 
+	font-size:20px;
+	line-height:1.2;
+}
+
+h2 { 
+	font-size:32px;
+	margin-bottom:10px;
+	line-height:1.2;
+	color:#e60003;
+        font-weight: normal;
+}
+
+p {
+	margin:0 0 6px;
+}
+
+.NimbusSanTCon {
+        font-family: 'NimbusSanTCon', sans-serif;
+}
+
+
+.left { float:left }
+
+.right { float:right }
+
+.clear { clear:both }
+
+/*#page {
+	width:950px;
+	margin: 0 auto;
+}*/
+#top {
+    height: 32px;
+    background:#172322;
+    line-height:32px;
+    font-size:110%;
+}
+#top a{
+    color:#FFF
+}
+
+#content, .content {
+    background:#FFF;
+    padding-top:11px;
+
+
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    
+}
+
+#uppermenu {
+	padding-top:34px;
+}
+
+
+
+
+#footer {
+	color:#acabab;
+	display:block;
+	height:63px;
+	margin-top:1px;
+	padding-top:5px;
+	text-align:right;
+	font-size:11px;
+}
+
+#footer a{
+	color:#acabab;
+}
+
+#footer .divisore {
+	color:#888888;
+}
+
+#lingue {
+	margin-top:170px;
+}
+
+#lingue a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#lingue a:hover{
+	color:#DA1A21;
+}
+
+#lingue img{
+	margin-bottom:10px;
+}
+
+#lingue div{
+	text-align:center;
+}
+
+.topblock {
+	border:none;
+	height:11px;
+	margin:0;
+	padding:0;
+    line-height:11px;
+    background:#FFF;
+
+    
+}
+
+.margini {
+	margin:10px;
+}
+
+
+dl#officeMap{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#officeMap dd{
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    font-size: 85%;
+}
+#officeMap dd a{
+    text-decoration: none;
+    position: absolute;
+}
+#officeMap dd a span, #officeMap dd a div{
+    display: none;
+}
+#officeMap dd a:hover div{
+    display: block;
+    text-indent: 0;
+    vertical-align: top;
+    color: #000;
+    background-color: #F4F4F4;
+    font-weight: bold;
+    position: absolute;
+    border: 1px solid #BCBCBC;
+    bottom: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+#homeimmagine, #registerimmagine, #corsoimmagine {
+	background:url(../images/mczs3.jpg) no-repeat;
+	height:303px;
+	width:100%;
+	display:block;
+	margin-bottom:10px;
+}
+
+#homeimmagine.imgfr {
+	background:url(../images/mczs3_fr.jpg) no-repeat;
+}
+
+#homeimmagine.imgde {
+	background:url(../images/mczs3_de.jpg) no-repeat;
+}
+
+#homeimmagine.imges {
+	background:url(../images/mczs3_es.jpg) no-repeat;
+}
+
+#homeimmagine.imgen {
+	background:url(../images/mczs3_en.jpg) no-repeat;
+}
+
+#registerimmagine {
+	background:url(../images/registration.jpg) no-repeat;
+}
+
+#corsoimmagine {
+	background:url(../images/corsotop.jpg) no-repeat;
+	height:269px;
+}
+
+
+/********************************************** CALENDARIO *************************************/
+
+
+#wp_calendar h3 {
+color:#C12900;
+font-size:13px;
+font-weight:bold;
+margin:0 15px 10px 0;
+padding:2px 5px;
+text-align:center;
+text-transform:capitalize;
+}
+
+#wp_calendar ul.weekdays {
+overflow:hidden;
+padding:0 0 10px;
+}
+
+#wp_calendar ul.weekdays li {
+    color:#97968D;
+    display:block;
+    float:left;
+    font-size:11px;
+    font-weight:bold;
+    margin:0 5px 0 5px;
+    padding:5px 0 0;
+    text-indent:5px;
+    width:120px;
+    text-transform:capitalize;
+}
+
+#wp_calendar ol.month {
+overflow:hidden;
+}
+
+#wp_calendar ol.month li {
+    display:block;
+    float:left;
+    height:100px;
+    margin:0 5px 10px 5px;
+    overflow:hidden;
+    padding:0;
+    width:120px;
+}
+
+#wp_calendar ol.month li div.head {
+	background:#EEEEEE;
+	color:#C12900;
+	font-size:11px;
+	font-weight:bold;
+	height:18px;
+	line-height:18px;
+	overflow:hidden;
+	padding:0 5px;
+	text-align:right;
+}
+
+#wp_calendar ol.month li div.head .left {
+	padding-top:4px;
+}
+
+#wp_calendar ol.month li div.day {
+	background:#FDFDFB;
+	height:90px;
+	overflow:auto;
+	padding:5px;
+	font-size:11px;
+}
+
+#wp_calendar ol.month li div.day.day2 {
+	height:30px;
+        border-bottom:1px solid #EEEEEE;
+        overflow:hidden;
+}
+
+
+#wp_calendar ol.month li div.head.esterno {
+	background:#b9dae7;
+}
+#wp_calendar ol.month li div.day.esterno {
+	background:#DBEAF0;
+}
+
+#wp_calendar ol.month li div.head.interno {
+	background:#FFF8A7;
+}
+#wp_calendar ol.month li div.day.interno {
+	background:#FFFFCC;
+}
+
+
+#wp_calendar ol.month li div.head.internofr {
+	background:#EE9D41;
+        color:#FFF;
+}
+#wp_calendar ol.month li div.day.internofr {
+	background:#EE9D41;
+        color:#FFF;
+}
+
+
+#wp_calendar ol.month li div.head.evento {
+	background:#b3d48f;
+}
+#wp_calendar ol.month li div.day.evento {
+	background:#C5EA9C;
+}
+
+
+#wp_calendar ol.month li div.head.cat {
+	background:#222;
+        color:#FFF;
+}
+#wp_calendar ol.month li div.day.cat {
+	background:#333333;
+        color:#FFF;
+}
+
+
+#wp_calendar ol.month li div.day.chiusura {
+	background:#EEEEEE;
+}
+
+
+#wp_calendar ol.month li div.day.festivo {
+	background:url(../images/stripe_5f8f185074e26166c8a38e4ca47638cd.png);
+}
+
+#wp_calendar ol.month li:hover div.day {
+	background:#941F00;
+        color:#FFF;
+}
+
+#wp_calendar ol.month li:hover div.head {
+    background:#8B0101;
+    color:#FFF;
+}
+
+#wp_calendar ol.month li:hover div.day a, #wp_calendar ol.month li a:hover{
+        color:#FFF;
+}
+
+
+#wp_calendar ol.month li div.day ul li {
+	background:inherit;
+	
+	float:none;
+	height:auto;
+	margin:0;
+	padding:2px 0;
+	width:110px;
+}
+
+#wp_calendar ol.month li a {
+	color:#31649A;
+	text-decoration:none;
+        border-color: #DDDDDD;
+	border-style:none none dotted;
+	border-width:medium medium 1px;
+}
+
+#wp_calendar ol.month li div.day.cat a{
+        color:#FFF;
+}
+
+
+#legenda dl{
+    float:left;
+    margin:10px;
+}
+
+#legenda dt{
+    float:left;
+    width:30px;
+    margin-right:5px;
+    border:1px solid #CCC;
+}
+
+#legenda dt.esterno{
+    background:#DBEAF0;
+}
+#legenda dt.interno{
+    background:#FFFFCC;
+}
+#legenda dt.internofr{
+    background:#EE9D41;
+}
+#legenda dt.evento{
+    background:#C5EA9C;
+}
+#legenda dt.cat{
+    background:#333333;
+}
+#legenda dt.chiusura{
+    background:#EEEEEE;
+}
+#legenda dt.festivo{
+    background:url(../images/stripe_5f8f185074e26166c8a38e4ca47638cd.png);
+}
+
+#legenda dd{
+    float:left;
+}
+
+
+/************************************** ICONE *****************************************/
+
+ul#quick-visual-links {
+	width:300px;
+}
+
+ul#quick-visual-links li {
+	float:left;
+}
+
+ul#quick-visual-links li a {
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+	border:1px solid #CCCCCC;
+	color:#444444;
+	display:block;
+	font-size:0.9em;
+	margin:0 3px 5px 0;
+	padding:5px 0;
+	text-align:center;
+	text-decoration:none;
+	width:62px;
+}
+
+ul#quick-visual-links li a:hover {
+	background:#F3F6F7 none repeat scroll 0 0;
+	border-color:#999999;
+	color:#000000;
+}
+
+ul#quick-visual-links li img {
+	margin-bottom:3px;
+}
+
+ul#quick-visual-links.squared1 li a{
+	display:block;
+}
+
+
+#destresploso {
+	width:260px;
+}
+
+
+/************************************** CARRELLO *****************************************/
+#carrello {
+	background:#F0F3F6;
+	padding:15px;
+	padding-top:0px;
+	font-size:11px;
+}
+
+/*#carrello a{
+	color:#000000;
+	font-size:11px;
+}*/
+
+
+.carrello_items {
+	height:324px;
+	margin-bottom:20px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.itemContainer {
+	clear:both;
+	font-size:11px;
+	padding:11px 0;
+	width:229px;
+}
+
+.itemName {
+	float:left;
+	width:145px;
+}
+
+.itemPrice {
+	color:#418932;
+	float:left;
+	width:145px;
+}
+
+.itemQuantity {
+	float:left;
+	margin-top:-12px;
+	vertical-align:middle;
+	width:33px;
+}
+
+.itemQuantity input {
+	border:1px solid #CCCCCC;
+	padding:3px 2px;
+	width:20px;
+}
+
+.itemTotal {
+	color:#C23F26;
+	float:right;
+	margin-top:-6px;
+}
+
+#carrello .simpleCart_checkout{
+    margin-bottom:5px
+}
+
+#carrello .simpleCart_empty {
+	font-weight:normal;
+}
+
+
+/************************************ SLIDER***********************/
+
+#slider{}	
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider li{ 
+	width:780px;
+	height:241px;
+	overflow:hidden; 
+	}	
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:110px;
+	}	
+#nextBtn{ 
+	left:785px;
+	}														
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:30px;
+	height:77px;
+	background:url(../images/previous_month.gif) no-repeat 0 0;	
+	text-indent:9999px;
+	overflow:hidden;
+	}	
+#nextBtn a{ 
+	background:url(../images/next_month.gif) no-repeat 0 0;	
+	}	
+	
+
+ul.sezioni, ul.cosavuoifare, ul.manualistica {
+	margin-bottom:15px;
+	margin-top:10px;
+}
+
+ul.sezioni li{
+    margin:0;
+    padding:0;
+    margin-bottom:2px;
+}
+
+ul.sezioni a {
+	color:#4C4C4C;
+	display:block;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size:11px;
+	margin:0;
+	padding:2px 10px 2px 15px;
+	text-decoration:none;
+	width:auto;
+	border-left:3px solid #4B4B4B;
+	background:#F7F7F7;
+	line-height:150%;
+}
+
+ul.sezioni a:hover, ul.sezioni a.selected {
+	border-left:3px solid #D01920;
+	color:#D01920;
+}
+
+
+/*
+#menusopratutto {  }
+#menusopratutto #menu {
+    text-transform:capitalize;
+    padding-left:18px;
+    padding-right:18px;
+    width:400px;
+  
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+#menusopratutto ul{ margin:0px; padding:0px; list-style:none; color:#fff; line-height:45px; display:inline-block;
+    float:left; z-index:1000; background:#172322; }
+#menusopratutto ul a { color:#fff; text-decoration:none; }
+#menusopratutto ul  li {background:#172322 none repeat scroll 0 0; cursor:pointer; float:left; position:relative;
+    padding:0px 10px;}
+#menusopratutto ul  li a:hover {color:#D01920;}
+#menusopratutto ul .logo {background:transparent none repeat scroll 0% 0%; padding:0px;
+    background-color:Transparent;}
+
+#menusopratutto ul ul { padding:0px; margin:0px; display:block; display:inline;}
+#menusopratutto ul li ul { position:absolute; left:-10px; top:0px; margin-top:45px; width:150px; line-height:16px;
+    background-color:#172322; color:#0395CC;  display:none; }
+#menusopratutto ul li:hover ul { display:block;}
+#menusopratutto ul li ul li{ display:block; margin:5px 20px; padding: 5px 0px;  border-top: dotted 1px #606060;
+    list-style-type:none; }
+#menusopratutto ul li ul li:first-child { border-top: none; }
+#menusopratutto ul li ul li a { display:block; color:#0395CC; }
+#menusopratutto ul li ul li a:hover { color:#D01920; }
+
+#menusopratutto ul #main { left:0px; top:-20px; padding-top:20px; background-color:#7cb7e3; color:#fff;
+    z-index:999;}
+
+.searchContainer div { background-color:#fff; display:inline; padding:5px;}
+.searchContainer input {border:none; border-color: transparent;
+}
+.searchContainer img { vertical-align:middle;} 
+*/
+
+#infoscat {
+	width:500px;
+}
+
+
+#possibilita .block {
+	clear:right;
+	float:left;
+	margin:0;
+	padding:0;
+	width:300px;
+}
+
+#possibilita .block img{
+	border:1px solid #EFEFEF;
+    border-bottom:none;
+}
+
+#possibilita .block p {
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.5em;
+	padding:0 15px 10px;
+	text-align:justify;
+}
+
+#possibilita .block a {
+	margin: 0pt;
+    padding: 0pt;
+    display: block;
+    width: 272px;
+    height: 132px;
+}
+
+#possibilita .block h3 {
+    background-color: rgb(239, 239, 239);
+    color: #555;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    width: 272px;
+}
+
+#possibilita .block h3 a{
+    display:inherit;
+    width:auto;
+    height:auto;
+    color: #555;
+    text-decoration:none;
+}
+
+#possibilita .sloganthumb {
+    margin-bottom:8px;
+}
+
+
+.regioni .notice {
+	margin-top:15px;
+}
+
+.boxassistenza {
+	width:240px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.catTop {
+	background:transparent url(../images/cattop.gif) no-repeat;
+	height:6px;
+	width:240px;
+}
+
+.catDown {
+	background:transparent url(../images/catdown.gif) no-repeat;
+	height:6px;
+	width:240px;
+}
+
+.boxassistenza div.interno  {
+	background:#F3F3F3;
+	color:#676767;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+        -webkit-border-radius:6px;
+        -moz-border-radius:6px;
+        border-radius:6px;
+	
+}
+
+#scaricacat {
+	width:500px;
+	margin:0 auto;
+}
+
+#scaricacat td, #scaricacat th {
+	border:none;
+	border-left:1px solid #FFFFFF;
+	padding:2px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#scaricacat td {
+	background:#F8F8F8;
+	border-bottom:1x solid #FFFFFF;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+#scaricacat td a {
+	color: #c00;
+	text-decoration:none;
+}
+
+#scaricacat td a:hover {
+	color: #c00;
+	text-decoration:underline
+}
+
+
+
+#scaricacat th {
+	background:#D41920;
+	color:#FFFFFF;
+}
+
+.optselprodotto option {
+    cursor:pointer;
+}
+
+
+/***************** FAQ *************/
+h5 {
+    font-size:13px;
+    font-weight:bold;
+    margin:0;
+    padding:0 0 3px;
+}
+
+.faq {
+    background-color:#E8F1E0;
+    background-repeat:repeat-x;
+    border-top:5px solid #DAE8CD;
+    color:#444444;
+    margin:0 0 20px;
+    padding:20px;
+}
+
+.faq a{
+    color:#444444;
+    text-decoration:none;
+}
+
+.faq a:hover{
+    text-decoration:none;
+}
+
+.faq h4 {
+    font-size:14px;
+    font-weight:bold;
+    margin:0;
+    padding:0 0 3px;
+}
+
+.faq h5 {
+    color:#3A7321;
+    padding-top:20px;
+}
+
+.faq h5 a{
+    color:#3A7321;
+}
+
+#forgotpass {
+    color:#3A7321;
+    text-decoration: underline;
+}
+
+/***************** CORSI *************/
+#tabellapartecipazioni tr td {
+    font-size:11px;
+}
+
+#tabellapartecipazioni .acrobat {
+    margin-right:5px
+}
+
+#tabellapartecipazioni a {
+    color:#444;
+    text-decoration:none;
+}
+
+#tabellapartecipazioni a:hover {
+    color:#444444;
+    text-decoration:underline;
+}
+
+/*dialogbox*/
+.ui-widget {
+    font-size:10px;
+}
+
+#corsi table {
+	width: 99%;
+	margin: 0 0 10px;
+	text-align: left;
+	border-spacing: 0px 0px;
+        border-collapse: separate;
+        font-size:11px;
+}
+
+#corsi table.tabellahover {
+    margin-bottom:40px;
+}
+
+#corsi th {
+    background: #E5E5E5;
+    border-bottom: 1px solid #D5D5D5;
+    border-top: 2px solid #666;
+    color: #555;
+    font-weight: bold;
+    height: 40px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#corsi table.tabellahover:hover th {
+    color:#E60003;
+    border-top: 2px solid #E60003
+}
+
+#corsi tr.link {
+	cursor: pointer;
+}
+
+#corsi td {
+    border-bottom: 1px solid #D5D5D5;
+    color: #222;
+    padding: 10px;
+    vertical-align: middle;
+	background:none;
+}
+
+#corsi table td span.active { color: #55a34a;}
+#corsi table td span.pending { color: #c5a059;}
+#corsi table td span.closed { color: #a02b2b;}
+
+#corsi tr.odd {
+    background: whiteSmoke;
+}
+
+#corsi td a {
+    text-decoration: none;
+	color:#222;
+}
+
+#corsi table td a:hover {
+    color:#DA1A21;
+    text-decoration: none;
+}
+
+#corsi tr {
+	position: relative;
+}
+
+#corsi tr.air {
+    background:#E9F9FF;
+}
+
+#corsi tr.cat {
+    background:#2A2E2E;
+    color:#D9D9D9;
+}
+#corsi tr.cat td, #corsi tr.cat a{
+    color:#D9D9D9;
+    border-bottom:1px solid #2A2E2E;
+}
+
+#corsi tr.hydro {
+    background:#3397B6;
+}
+#corsi tr.hydro td, #corsi tr.hydro a {
+    color:#FFF;
+}
+
+#corsi tr.red {
+    background:#E04A28;
+}
+#corsi tr.red td, #corsi tr.red a {
+    color:#FFF;
+}
+
+#corsi tr.legna {
+    background:#8BC268;
+}
+#corsi tr.legna td, #corsi tr.legna a {
+    color:#FFF;
+}
+
+#corsi tr.base {
+    background:#F3CD00;
+}
+#corsi tr.base td, #corsi tr.base a {
+    color:#000;
+}
+
+
+/***************** PRODOTTI *************/
+#type, #type2, #modelli {
+    width: 230px; 
+    height: 280px;
+    font-size: 13px;
+}
+
+#frecciatype, #frecciatype2 {
+    color:#D01920;
+    font-size:50px;
+    display:none;
+}
+
+/***************** NEWS *************/
+.newsticker {
+	list-style-type: none;
+	background: #172322;
+	margin: 0;
+}
+
+.newsticker span{
+    color:#CD191F
+}
+
+.news {
+    margin-bottom: 20px; padding-bottom:15px; border-bottom: 2px dotted #E4E3E2;
+}
+
+.news h3 {
+    font-family: Georgia; color:#3D3A30;font-size: 167%;font-weight: normal; margin:0 0 15px 0;
+        line-height: 147%;
+}
+
+.news h3 a{
+    color:#3D3A30;
+}
+
+.news h3 span {
+    color:#CD191F
+}
+
+/***************** NEWS *************/
+.venue  {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    /*height: 260px;*/
+    background:#F1F1F1;
+    margin-bottom:30px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+}
+
+.venue h3{
+    padding:10px 10px 0;
+    font-size:110%;
+}
+
+.venue p{
+    padding:0 10px 5px;
+}
+
+.venue a{
+    color:#333;
+}
+
+.venue a:hover{
+    text-decoration: none;
+}
+
+.venue div{
+    background: url(../images/mappe/map_party.png) 0px 50%;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    height: 200px;
+    left: 0px;
+    /*position: absolute;*/
+}
+
+.venue div span {
+    background: url(../images/mappe/sprite.png) -299px -738px;
+    height: 61px;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+    position: absolute;
+    top: 60%;
+    width: 61px;
+}
+
+.venue a:hover div span {
+    background-position: -299px -799px;
+}
+
+
+.prev, .next { background-color:#b0232a; padding:5px 10px; color:#fff; text-decoration:none;}
+.prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+.prev { float:left;}
+.next { float:right;}
+#steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:24px; float:left; padding:10px; color:#b0b1b3;}
+#steps li span {font-size:11px; display:block;}
+#steps li.current { color:#000;}
+#makeWizard { background-color:#b0232a; color:#fff; padding:5px 10px; text-decoration:none; font-size:18px;}
+#makeWizard:hover { background-color:#000;}
